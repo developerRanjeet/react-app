@@ -1,0 +1,210 @@
+.colorX {
+    background-color: rgb(19, 29, 232);
+    color: white;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+
+.float-end {
+   text-align: right; 
+}
+
+header {
+    width: 100%;
+    background-color: #000;
+}
+
+.home-back {
+    background-image: url("./oleg.png");
+}
+
+footer {
+    background-color: #000;
+    color: aliceblue;
+}
+
+footer div div a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#navbarNav a {
+    color: aliceblue;
+    font-weight: 500;
+}
+
+#navbarNav a:hover {
+    color: white;
+    border-bottom: 1px solid #fff;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+.home {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.home-img {
+    width: 80%;
+}
+
+.service h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width: 995px) {
+    .service-card {
+      background-color: lightgreen;
+      margin-top: 2rem;
+    }
+
+    .testimonial-card {
+        background-color: rgb(220, 228, 220);
+        margin-top: 2rem;
+    }
+}
+
+.testimonial {
+    margin-top: 300px;
+}
+
+.testimonial img {
+    width: 6rem;
+    background-color: #7439cd;
+    border-radius: 50%;
+}
+
+.testimonial h5 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.testimonial h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.testimonial-card:hover {
+    background-color: rgba(0, 0, 0, 0.066);
+    transition: background-color 1s ease-in-out;
+}
+
+.about {
+    margin-top: 300px;
+}
+
+.about h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact div {
+    width: 100%;
+    max-width: 500px;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    padding: 20px 0;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #555;
+    transition: color 0.3s, transform 0.3s; 
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #007bff;
+    transform: scale(1.1);
+}
+
+.social-icon:last-child:hover {
+    color: #ff0008;
+    transform: scale(1.1);
+}
+
+@media (max-width: 767px) {
+    .social-media-icons {
+        gap: 15px; 
+    }
+
+    .social-icon {
+        font-size: 20px; 
+    }
+}
+
+.notification {
+    min-height: 90vh;
+}
+
+#navbarToggler {
+    display: none;
+}
+
+#navbarCross {
+    display: none;
+}
+
+
+@media (max-width: 992px) {
+    #navbarNav {
+        display: none;
+    }
+
+    #navbarToggler {
+        display: block;
+    }
+
+    #navbarToggler {
+        font-size: 2rem;
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin-top: .5rem;
+        margin-right: 1rem;
+    }
+
+    #navbarCross {
+        font-size: 2rem;
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin-top: .5rem;
+        margin-right: 1rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
