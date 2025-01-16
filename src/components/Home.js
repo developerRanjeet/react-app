@@ -2,17 +2,17 @@ import React from 'react';
 
 function Home() {
     return (
-        <section>
-            <article>
-                <h1>My First Component</h1>
-                <ol>
-                    <li>Components: UI Building Blocks</li>
-                    <li>Defining a Component</li>
-                    <li>Using a Component</li>
-                </ol>
-            </article>
-        </section>
-    )
+        <div className="home container" id="Home">
+            <div className="row">
+                <div className="col-md-6 home-text">
+                    <p className="h4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores fugiat accusamus veniam, possimus maxime rem, sed recusandae veritatis perspiciatis maiores, suscipit quisquam quis voluptate numquam cupiditate fuga debitis est explicabo </p>
+                </div>
+                <div className="col-md-6 text-center">
+                    <img src="home.png" alt="home" className="home-img" />
+                </div>
+            </div>
+        </div>
+    );
 }
 
 export default Home;
