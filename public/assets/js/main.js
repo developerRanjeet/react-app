@@ -1,11 +1,11 @@
-$("#navbarToggler").on("click", function(){
-    $("#navbarNav").slideDown("slow");
-    $("#navbarToggler").hide();
-    $("#navbarCross").show();
-    $(".navbar-brand").hide();
-});
-
 $(document).ready(function() {
+    $("#navbarToggler").on("click", function(){
+        $("#navbarNav").slideDown("slow");
+        $("#navbarToggler").hide();
+        $("#navbarCross").show();
+        $(".navbar-brand").hide();
+    });
+
     $("#navbarCross").click(function() {
         $("#navbarNav").hide();
         $("#navbarToggler").show();
